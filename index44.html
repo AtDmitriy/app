@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 100px 30% 1fr;
+            grid-template-rows: 200px 100px;
+            grid-gap: 10px;
+        }
+
+        .cell-1,
+        .cell-2,
+        .cell-3,
+        .cell-4,
+        .cell-5,
+        .cell-6 {
+            display: grid;
+            border: 3px solid black;
+            background: linear-gradient(to bottom right, rgb(103, 23, 179), rgb(160, 143, 255));
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="cell cell-1"></div>
+        <div class="cell cell-2"></div>
+        <div class="cell cell-3"></div>
+        <div class="cell cell-4"></div>
+        <div class="cell cell-5"></div>
+        <div class="cell cell-6"></div>
+    </div>
+
+</body>
+
+</html>

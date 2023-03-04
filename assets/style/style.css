@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Averta Demo PE Cutted Demo Regular';
+    src: url('../fonts/averta_demo_pe_cutted_demo_regular.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('../fonts/averta_demo_pe_cutted_demo_regular.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('../fonts/averta_demo_pe_cutted_demo_regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/averta_demo_pe_cutted_demo_regular.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('../fonts/averta_demo_pe_cutted_demo_regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/averta_demo_pe_cutted_demo_regular.svg#averta_demo_pe_cutted_demo_regular') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+.header {
+    display: grid;
+    align-items: center;
+}
+
+.nav {
+    padding-left: 120px;
+    width: 1200px;
+    height: 34px;
+}
+
+.menu0 {
+    text-decoration: none;
+    padding-left: 430px;
+}
+
+.menu {
+    text-decoration: none;
+    padding-left: 60px;
+}
+
+.main {
+    display: grid;
+    padding-left: 68px;
+    grid-template-columns: 40% 1fr;
+    height: 650px;
+}
+
+.text {
+    display: grid;
+    grid-template-rows: 30% 20% 50%;
+    width: 471px;
+}
+
+.footer {
+    display: grid;
+    padding-left: 120px;
+    grid-template-columns: 25% 1fr 1fr 1fr 1fr;
+}
+
+.ftext {
+    width: 270px;
+}
+
+.f {
+    display: grid;
+    align-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 15% 1fr 20%;
+    height: 100vh;
+}
+
+#el {
+    position: absolute;
+    width: 129px;
+    height: 129px;
+    left: 600px;
+    top: 116px;
+    z-index: 0;
+    opacity: 0.8;
+}
+
+#rec {
+    position: absolute;
+    width: 178px;
+    height: 178px;
+    left: 1142px;
+    top: 546px;
+    z-index: 0;
+    opacity: 0.8;
+}
+
+#pic {
+    z-index: 1;
+    position: absolute;
+}
+
+#dot {
+    position: absolute;
+    width: 404px;
+    height: 154px;
+    left: 35px;
+    top: 430px;
+    z-index: 0;
+    opacity: 0.8;
+}
+
+#button {
+    z-index: 1;
+}
